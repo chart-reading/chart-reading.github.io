@@ -1,0 +1,97 @@
+
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Chartist: Task-driven Eye Movement Control for Chart Reading</title>
+  <meta name="description" content="Chartist: Task-driven Eye Movement Control for Chart Reading">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <div class="wrapper">
+   <header>
+     <teaser>
+     </teaser>
+     <h1>
+      <b>Chartist</b>: 
+      <span>Task-driven Eye Movement Control for Chart Reading<br>
+      </span>
+      <p style="font-size:medium;">CHI 2025, Yokohama 🌸</p>
+    </h1>
+  </header>
+  <section>
+    <h2>Authors</h2>
+    <a href="https://sdq.github.io" target="_blank">Danqing Shi</a><span class="sep"></span>
+    <a href="https://marcwong.github.io/" target="_blank">Yao Wang</a><span class="sep"></span>
+    <a href="https://baiyunpeng1949.github.io/" target="_blank">Yunpeng Bai</a><span class="sep"></span>
+    <a href="https://collaborative-ai.org/people/bulling/" target="_blank">Andreas Bulling</a><span class="sep"></span>
+    <!-- <br/> -->
+    <a href="https://users.aalto.fi/~oulasvir/" target="_blank">Antti Oulasvirta</a>
+    <img class="teaser" src="img/affilitations.png" />
+  </section>
+  <!-- <section>
+    <h2>Affiliations</h2>
+    FCAI<span class="sep"></span>
+    Aalto University<span class="sep"></span>
+    University of Jyväskylä<span class="sep"></span>
+    University of Birmingham<span class="sep"></span>
+    Google
+  </section> -->
+  <section>
+    <h2>Abstract</h2>
+    <p class="abstract">
+      To design data visualizations that are easy to comprehend, we need to understand how people with different interests read them. Computational models of predicting scanpaths on charts could complement empirical studies by offering estimates of user performance inexpensively; however, previous models have been limited to gaze patterns and overlooked the effects of tasks. Here, we contribute Chartist, a computational model that simulates how users move their eyes to extract information from the chart in order to perform analysis tasks, including value retrieval, filtering, and finding extremes. The novel contribution lies in a two-level hierarchical control architecture. At the high level, the model uses LLMs to comprehend the information gained so far and applies this representation to select a goal for the lower-level controllers, which, in turn, move the eyes in accordance with a sampling policy learned via reinforcement learning. The model is capable of predicting human-like task-driven scanpaths across various tasks. It can be applied in fields such as explainable AI,  visualization design evaluation, and optimization. While it displays limitations in terms of generalizability and accuracy, it takes modeling in a promising direction, toward understanding human behaviors in interacting with charts.
+   </p>
+   <img class="teaser" src="img/model.png" />
+ </section>
+ <!-- <section>
+  <img class="teaser" src="img/algorithm.png" />
+ </section> -->
+ <section>
+  <h2>Results: Task-driven scanpaths</h2>
+  <img class="teaser" src="img/scanpaths.png" />
+</section>
+<section>
+  <h2>Material (Coming Soon)</h2>
+  <a href="https://chart-reading.github.io">Paper</a><span class="sep"></span>
+  <a href="https://chart-reading.github.io">Supplemental Material</a><span class="sep"></span>
+  <a href="https://chart-reading.github.io">Code and Data</a>
+</section>
+<section>
+  <h2>Related Project</h2>
+  <a href="https://crtypist.github.io" target="_blank">CRTypist</a>
+</section>
+<section>
+    <h2>Cite</h2>
+
+  <div class="citation-container">
+    <div class="citation">@article{shi2025chartist,
+      title={Chartist: Task-driven Eye Movement Control for Chart Reading},
+      author = {Shi, Danqing and Wang, Yao and Bai, Yunpeng and Bulling, Andreas and Oulasvirta, Antti},
+      journal = {Proceedings of the 2025 CHI conference on human factors in computing systems},
+      year={2025},
+    }</div>
+    <!-- <span class="citation-title">BibteX</span> -->
+  </div>
+  
+  <footer>
+ </footer>
+</div>
+</body>
+
+</html>
